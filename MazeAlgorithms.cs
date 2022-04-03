@@ -60,6 +60,7 @@ namespace Maze_Generation_3
             var directions = GetDirections(x, y);
             int index = rnd.Next(directions.Count);
             return directions[index];
+             
         }
 
         public void MakeDoor(Coord coords, Direction direction) 
